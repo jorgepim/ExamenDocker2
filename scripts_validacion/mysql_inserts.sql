@@ -1,7 +1,4 @@
-
-docker exec -i mysql_local mysql -u root -proot123 lab_tienda < schema_mysql.sql
-
---INSERTS
+-- INSERTS
 
 INSERT INTO categories (name) VALUES 
 ('Electrónica'), ('Hogar'), ('Ropa'), ('Deportes'), ('Libros');

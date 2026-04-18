@@ -1,5 +1,5 @@
-docker exec -i postgres_local psql -U admin -d lab_tienda < schema_postgres.sql 
---INSERTS
+-- INSERTS
+
 INSERT INTO categories (name) VALUES 
 ('Electrónica'), ('Hogar'), ('Ropa'), ('Deportes'), ('Libros');
 
